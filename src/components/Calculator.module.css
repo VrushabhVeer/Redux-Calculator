@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.calculator {
+    height: 500px;
+    width: 400px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.inputDiv {
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.input {
+    width: 93%;
+    height: 80%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.keyboard {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 80px);
+    margin-top: 20px;
+    gap: 10px
+}
+
+.keyboard>div {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.keyboard>div:hover {
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.black:hover {
+    color: black;
+    background-color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+
+.orange:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.white:hover {
+    background-color: black;
+    color: white;
+}
+
+.teal {
+    background-color: rgb(46, 202, 202);
+    color: white;
+}
+
+.teal:hover {
+    background-color: teal;
+    color: white;
+}
